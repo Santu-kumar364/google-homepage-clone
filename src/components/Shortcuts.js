@@ -1,5 +1,5 @@
 import "../css/Shortcuts.css";
-
+import AddIcon from '@mui/icons-material/Add';
 
 const items = [
   {
@@ -34,17 +34,24 @@ const items = [
     name: "Pexels",
     img: "https://pexels.com/favicon.ico",
   },
-   
+  {
+    name: "Add shortcut",
+    icon: <AddIcon className="add-icon" />,
+    isIcon: true
+  }
 ];
 
- 
 export default function Shortcuts() {
   return (
     <div className="shortcuts">
       {items.map((item) => (
-        <div className="shortcut"  >
+        <div className="shortcut">
           <div className="icon-circle">
-            <img src={item.img} alt={item.name} />
+            {item.isIcon ? (
+              item.icon
+            ) : (
+              <img src={item.img} alt={item.name} />
+            )}
           </div>
           <p>{item.name}</p>
         </div>
@@ -52,7 +59,3 @@ export default function Shortcuts() {
     </div>
   );
 }
-
-
-
-

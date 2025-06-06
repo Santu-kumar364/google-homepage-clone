@@ -12,6 +12,10 @@
   text-decoration: none;
   color: black;
 }
+.header a:hover {
+  text-decoration: underline;
+  color: black;
+}
 
 .header .icon {
   cursor: pointer;
@@ -22,6 +26,7 @@
   width: 32px;
   height: 32px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 
@@ -33,7 +38,7 @@
   }
 
   .header a {
-    display: none; /* Hide text links on mobile */
+    display: none; /* Hide text links if screen is small */
   }
 
   .header .icon {

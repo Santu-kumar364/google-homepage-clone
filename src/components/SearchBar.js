@@ -1,9 +1,9 @@
-import React from 'react';
-import '../css/SearchBar.css';
+import React from "react";
+import "../css/SearchBar.css";
 
-import SearchIcon from '@mui/icons-material/Search';
-import MicIcon from '@mui/icons-material/Mic';
-import CenterFocusWeakIcon from '@mui/icons-material/CenterFocusWeak';
+import SearchIcon from "@mui/icons-material/Search";
+import MicIcon from "@mui/icons-material/Mic";
+import CenterFocusWeakIcon from "@mui/icons-material/CenterFocusWeak";
 
 const SearchBar = () => {
   return (
@@ -16,6 +16,6 @@ const SearchBar = () => {
       </div>
     </div>
   );
-}
+};
 
 export default SearchBar;
