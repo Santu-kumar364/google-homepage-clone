@@ -71,7 +71,7 @@ body, html, #root, .App {
 
 
 
-/* Mobile (up to 768px) */
+/* Mobile */
 @media (max-width: 768px) {
   .logo img {
     width: 200px;
@@ -98,7 +98,7 @@ body, html, #root, .App {
   }
 } 
 
-/* Small Mobile (up to 480px) */
+/* Small Mobile */
 @media (max-width: 480px) {
   .header {
     padding: 10px 15px;

@@ -10,17 +10,12 @@
 .shortcut {
   margin: 17px;
   text-align: center;
-   
   cursor: pointer;
   border-radius: 10px;
   padding: 8px;
 }
 
 .shortcut:hover {
-  /* width: 50px;
-  height: 100px; */
-   
-  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); */
   background-color: #f5f5f5;
 }
  
