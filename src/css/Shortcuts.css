@@ -1,0 +1,43 @@
+
+.shortcuts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.shortcut {
+  margin: 17px;
+  text-align: center;
+}
+
+.icon-circle {
+  width: 64px;
+  height: 64px;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.icon-circle img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+}
+
+
+
+@media (max-width: 768px) {
+  .shortcuts {
+    margin-top: 20px;
+    padding: 0 10px;
+  }
+
+  .shortcut p {
+    font-size: 12px;
+    margin-top: 5px;
+  }
+}

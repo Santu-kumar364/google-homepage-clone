@@ -1,0 +1,47 @@
+/* Header.css */
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 25px;
+  font-size: 14px;
+  gap: 15px;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+}
+
+.header .icon {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+
+
+@media (max-width: 768px) {
+  .header {
+    padding: 10px 15px;
+    gap: 10px;
+  }
+
+  .header a {
+    display: none; /* Hide text links on mobile */
+  }
+
+  .header .icon {
+    font-size: 20px;
+  }
+
+  .avatar {
+    width: 28px;
+    height: 28px;
+  }
+}
