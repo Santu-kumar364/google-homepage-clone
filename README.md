@@ -1,4 +1,4 @@
-# 🌐 Google Homepage Clone
+#  Google Homepage Clone
 
 This is a fully responsive **Google homepage clone** built using **React.js**, **CSS**, and **Material UI (MUI) Icons**. The project replicates the visual design and layout of the original Google homepage, including shortcut icons, search bar, and header links.
 
@@ -13,8 +13,8 @@ This is a fully responsive **Google homepage clone** built using **React.js**, *
 ---
 
 ## 📸 Screenshot
+ ![Screenshot 2025-06-06 190301](https://github.com/user-attachments/assets/2aaa2003-3563-49f9-804a-85ff086dfa49)
 
-![Google Homepage Clone Screenshot](./screenshot.png) <!-- Replace with actual screenshot -->
 
 ---
 
